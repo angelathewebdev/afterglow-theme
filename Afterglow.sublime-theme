@@ -580,6 +580,13 @@
         "font.size": 14,
         "color": [116, 116, 116] // 03
     },
+    {
+        "class": "sidebar_label",
+        "settings": ["sidebar_custom"],
+        "font.size": 14,
+        "row_padding": [3, 3],
+        "color": [116, 116, 116] // 03
+    },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
