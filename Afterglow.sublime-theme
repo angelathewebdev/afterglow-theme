@@ -499,7 +499,7 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8,4],
+        "row_padding": [8, 4],
         "indent": 16,
         "indent_offset": 16,
         "indent_top_level": false,
@@ -580,11 +580,22 @@
         "font.size": 14,
         "color": [116, 116, 116] // 03
     },
+    // Sidebar custom options
+    {
+        "class": "sidebar_tree",
+        "settings": ["sidebar_custom"],
+        "row_padding": [10, 10],
+        "indent": 16,
+        "indent_offset": 16,
+        "indent_top_level": false,
+        "dark_content": true
+    },
     {
         "class": "sidebar_label",
         "settings": ["sidebar_custom"],
         "font.size": 14,
-        "row_padding": [3, 3],
+        "font.face": "EuroStile",
+        "font.options": ["subpixel_antialias"],
         "color": [116, 116, 116] // 03
     },
     // Sidebar folder entry
